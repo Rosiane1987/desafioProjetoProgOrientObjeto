@@ -1,8 +1,9 @@
-import br.com.dio.desafio.conteudo;
+package br.com.dio.desafio;
 
 import java.time.LocalDate;
 
-public class desafioProjetoCodigo extends conteudo {
+public class desafioCodeProje extends conteudo {
+
 
     private int cargahorariadesafio;
     private LocalDate datadesafio;
@@ -20,7 +21,7 @@ public class desafioProjetoCodigo extends conteudo {
 
 
 
-    public desafioProjetoCodigo() {   }
+    public desafioCodeProje() {   }
 
 
     public int getCargahorariadesafio() { return cargahorariadesafio; }
@@ -43,3 +44,4 @@ public class desafioProjetoCodigo extends conteudo {
                 '}';
     }
 }
+

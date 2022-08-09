@@ -1,7 +1,4 @@
-import br.com.dio.desafio.Curso;
-import br.com.dio.desafio.Dev;
-import br.com.dio.desafio.Mentoria;
-import br.com.dio.desafio.bootcamp;
+import br.com.dio.desafio.*;
 
 import java.time.LocalDate;
 
@@ -28,13 +25,13 @@ public class Main {
         mentoria.setDescricao("Aula inaugural");
         mentoria.setData(LocalDate.now());
 
-        desafioProjetoCodigo desafioCode = new desafioProjetoCodigo();
+        desafioCodeProje desafioCode = new desafioCodeProje();
         desafioCode.setTitulo("Desafio de código");
         desafioCode.setDescricao("Intervalo; Dominó;Seleção de índice de valor");
         desafioCode.setCargahorariadesafio(1);
         desafioCode.setDatadesafio(LocalDate.now());
 
-        desafioProjetoCodigo desafioProje = new desafioProjetoCodigo();
+        desafioCodeProje desafioProje = new desafioCodeProje();
         desafioProje.setTitulo("Desafio de projeto");
         desafioProje.setDescricao("Abstraindo um bootcamp com orientação a objetos");
         desafioProje.setCargahorariadesafio(1);
